@@ -27,6 +27,21 @@ const Layout = ({
         name="twitter:image"
         content="https://nextjs-typescript-react-stripe-js.now.sh/social_card.png"
       />
+      <script
+            dangerouslySetInnerHTML={{
+              __html: `
+    (function(w){
+        var k=“nudgify”,n=w[k]||(w[k]={});
+        n.uuid=“16c9ba9f-569b-4032-bb27-80466b7b08bb”;
+        var d=document,s=d.createElement(“script”);
+        s.src=“https://pixel-rc.nudgify.com/pixel.js”;
+        s.async=1;
+        s.charset=“utf-8”;
+        d.getElementsByTagName(“head”)[0].appendChild(s)
+    })(window)
+          `
+            }}
+       />
     </Head>
     <div className="container">
       <header>
