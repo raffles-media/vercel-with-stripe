@@ -32,7 +32,7 @@ const Layout = ({
               __html: `
               (function(w){
                   var k="nudgify",n=w[k]||(w[k]={});
-                  n.uuid="16c9ba9f-569b-4032-bb27-80466b7b08bb";
+                  n.uuid="044ba990-ad97-4fc9-8a98-f17d33afbcf2";
                   var d=document,s=d.createElement("script");
                   s.src="https://pixel-rc.nudgify.com/pixel.js";
                   s.async=1;
